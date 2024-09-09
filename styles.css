@@ -53,3 +53,27 @@
   color: #fff;
   font-size: 42px;
 }
+/* About Section */
+#about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+
+#about .btn {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.about-content{
+    padding: 20px;
+}
+.skills-bar p{
+    margin-bottom:  6px;
+}
+.progress {
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+/* Services */
+
