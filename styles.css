@@ -323,6 +323,7 @@ a {
   background-color: #efefef;
 }
 .user {
+ 
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -355,3 +356,18 @@ blockquote::before {
   bottom: -15px;
   right: 5px;
 }
+blockquote::after {
+  content: "\94";
+  font-size: 50px;
+  color: #007bff;
+  position: relative;
+  line-height: 20px;
+  bottom: -15px;
+  right: 5px;
+}
+.profile:hover {
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
