@@ -305,3 +305,53 @@ a {
   text-decoration: none;
   color: #fff !important;
 }
+
+/* Testimonials Section */
+#testimonials {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#testimonials .row {
+  margin-top: 30px;
+}
+.col-md-4 {
+  margin: 40px auto;
+}
+.profile {
+  padding: 70px 10px 10px;
+  background-color: #efefef;
+}
+.user {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.profile img {
+  position: absolute;
+  left: calc(50% - 60px);
+  border: 10px solid #fff;
+}
+.profile h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #007bff;
+}
+#testimonials span {
+  font-size: 12px;
+  color: #333;
+}
+blockquote {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+blockquote::before {
+  content: "\93";
+  font-size: 50px;
+  color: #007bff;
+  position: relative;
+  line-height: 20px;
+  bottom: -15px;
+  right: 5px;
+}
